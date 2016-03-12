@@ -1,6 +1,6 @@
 {
   "name": "trivial-require",
-  "version": "0.1.0",
+  "version": "0.1.0-2",
   "description": "Trivial closure-friendly require() script",
   "main": "trivial-require.js",
   "keywords": [

@@ -1,7 +1,7 @@
 # trivial-require #
-###################
 
 Trivial closure-friendly require() script.
+
 
 What does this mean? Think browserify, but very fragile and extremely non-conformant.
 That's trivial-require.
@@ -10,8 +10,7 @@ Why use this? Scripts run through browserify can certainly be closure-compiled,
 but there's a lot of useless fluff that, if your script is written in a certain way, might not be needed.
 
 
-# Coding for trivial-require #
-##############################
+## Coding for trivial-require ##
 
 When coding with trivial-require in mind, think of require() as a function that will put the contents
 of the file you are require()ing into the source file. Because that's almost literally what it does.
