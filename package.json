@@ -1,14 +1,21 @@
 {
-  "name": "trivial-require",
-  "version": "0.1.0-2",
+  "name":        "trivial-require",
+  "version":     "0.1.1",
   "description": "Trivial closure-friendly require() script",
-  "main": "trivial-require.js",
+  "author":      "Anonymous Meerkat",
+  "license":     "MIT",
+
   "keywords": [
     "closure",
     "browserify",
-    "require",
-    "trivial"
+    "trivial",
+    "require"
   ],
-  "author": "Anonymous Meerkat",
-  "license": "MIT"
+
+
+  "bin":  {
+    "trivial-require": "bin/trivial-require.js"
+  },
+
+  "main": "trivial-require.js"
 }
