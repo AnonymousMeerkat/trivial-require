@@ -1,6 +1,6 @@
 {
   "name":        "trivial-require",
-  "version":     "0.1.1",
+  "version":     "0.1.1-1",
   "description": "Trivial closure-friendly require() script",
   "author":      "Anonymous Meerkat",
   "license":     "MIT",
@@ -11,6 +11,8 @@
     "trivial",
     "require"
   ],
+
+  "repository": "AnonymousMeerkat/trivial-require",
 
 
   "bin":  {
